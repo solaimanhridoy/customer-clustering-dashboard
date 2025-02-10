@@ -1,8 +1,12 @@
 # Clustering Dashboard Documentation
 
-Please check the deployed dashboard in this [dashboard link](https://web-production-b121.up.railway.app/)
+
 ## Overview
 This document provides a brief overview of the clustering dashboard project. It explains the dataset used, the clustering algorithms implemented, and how the interactive dashboard works.
+
+## Important Links
+Please check the deployed dashboard in this [dashboard link](https://web-production-b121.up.railway.app/)
+The Source code is also available in this github [repository link](https://github.com/solaimanhridoy/customer-clustering-dashboard/)
 
 ## Dataset Used
 The dataset used in this project is the **Mall Customers** dataset. Key details include:
