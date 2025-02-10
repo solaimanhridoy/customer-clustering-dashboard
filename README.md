@@ -48,6 +48,7 @@ The dashboard supports multiple clustering algorithms to offer different perspec
 
 ## How the Dashboard Works
 The dashboard is built using **Dash** and **Dash Bootstrap Components** in Python. Key functionalities include:
+![Screenshot 1](screenshot_1.jpg)
 
 - **Dynamic Filters:**
   - **Gender Filter:**  
