@@ -48,13 +48,12 @@ The dashboard supports multiple clustering algorithms to offer different perspec
 
 ## How the Dashboard Works
 The dashboard is built using **Dash** and **Dash Bootstrap Components** in Python. Key functionalities include:
-![Screenshot 1](screenshot_1.jpg)
-
 - **Dynamic Filters:**
   - **Gender Filter:**  
     A dropdown lets users filter the dataset based on gender.
   - **Age Range Slider:**  
     A slider enables users to select a specific age range, focusing the analysis on a particular demographic.
+![Screenshot 1](screenshot_1.jpg)
 
 - **Clustering Options:**
   - **Algorithm Selection:**  
@@ -63,12 +62,14 @@ The dashboard is built using **Dash** and **Dash Bootstrap Components** in Pytho
     Depending on the selected algorithm, the dashboard dynamically displays:
     - A slider for the number of clusters (for K-Means and Hierarchical Clustering).
     - Input fields for `eps` and `min_samples` (for DBSCAN).
+![Screenshot 2](screenshot_2.jpg)
 
 - **Interactive Visualizations:**
   - **Scatter Plot:**  
     The dashboard displays a scatter plot of Annual Income versus Spending Score. Each customer is color-coded according to the assigned cluster.
   - **Elbow Method Plot:**  
     For K-Means clustering, an additional plot shows inertia values for different numbers of clusters, aiding in selecting an optimal cluster count.
+![Screenshot 3](screenshot_3.jpg)
 
 - **Deployment:**  
   The app is configured to run on `0.0.0.0` and uses a dynamic port (via an environment variable), making it suitable for deployment on free hosting platforms like Railway (railway.app).
